@@ -1,3 +1,18 @@
+/*
+ *  Alchematch
+ *  by Brett Taylor 2020
+ *  Lead development by Daniel King
+ *  Original game by Brett Taylor
+ *
+ *  --------------------
+ *  Blinks by Move38
+ *  Brought to life via Kickstarter 2018
+ *
+ *  @madewithblinks
+ *  www.move38.com
+ *  --------------------
+ */
+
 enum blinkStates {INERT, MATCH_MADE, DISSOLVING, BOMB, EXPLODE, R_BOMB, RESOLVE};
 byte signalState = INERT;
 byte nextState = INERT;
